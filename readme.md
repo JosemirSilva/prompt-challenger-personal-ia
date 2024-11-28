@@ -1,6 +1,4 @@
-<p align="center">
-    <img width="300px" src=".github/assets/logo_2.png">
-</p>
+![image](https://github.com/user-attachments/assets/e99785c0-814e-4251-a4b3-660150b1e2d9)
 
 <p align="center">
 <a href="https://dio.me/"><img src="https://img.shields.io/badge/DIO-Project-FED564?logo=youtube" alt="DIO - Project"></a>
@@ -11,61 +9,41 @@
 </p>
 
 <p align="center">
-  <h3 align="center">🏋️‍♂️ Assistente de Personal Trainer - Gerador de Treino Ideal</h3>
-Este projeto é um desafio de Prompt Engineer, onde o objetivo é criar um prompt que ajuda a montar o treino ideal para cada combinação de fatores, como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente de personal trainer gerado por esse prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário.
-O projeto deve ser feito utilizando as boas práticas de prompt engineer.
-</p>
+  <h3 align="center">🏋️‍♂️ Assistente IA Personal Traner</h3>
 
 ## 📋 Índice
 
 - [📋 Índice](#-índice)
-- [📝 Introdução](#-introdução)
+- [📝 Sobre](#-sobre)
 - [💪 Biotipos Corporais](#-biotipos-corporais)
 - [📅 Dias Disponíveis para Treino](#-dias-disponíveis-para-treino)
 - [🏋️ Tipos de Exercícios](#️-tipos-de-exercícios)
 - [🛠️ Regras de negócio](#️-regras-de-negócio)
 - [📖 Material de Apoio](#-material-de-apoio)
-- [🎯 Prompt de Resposta Proposto](#-prompt-de-resposta-proposto)
-
+- [🎯 Prompt Input: Especialista Personal Trainer ](#-prompt-input-especialista-personal-trainer)
+- [🎯 Prompt Output de Resposta ](#-prompt-output-de-resposta)
+- [💪 Conclusão ](#-conclusão)
+  
 ---
 
-## 📝 Introdução
+## 📝 Sobre
 
-Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido, e o assistente gerará um plano de treino ideal com base nessas informações.
+Este projeto é um desafio de Prompt Engineering com o objetivo de desenvolver um prompt capaz de criar treinos personalizados com base em fatores como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente gerado utiliza as melhores práticas de engenharia de prompts para adaptar os treinos às características e necessidades individuais de cada usuário.
 
 ---
 
 ## 💪 Biotipos Corporais
 
-A primeira regra para personalizar o treino é determinar o biotipo corporal do usuário. Existem três biotipos principais:
+A primeira regra para personalizar o treino é determinar o biotipo corporal do usuário. 
 
-<table>
-  <tr>
-    <th>Imagem</th>
-    <th>Biotipo</th>
-    <th>Descrição</th>
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-    </td>
-    <td><strong>Ectomorfo</strong></td>
-    <td>Corpo mais magro, difícil ganhar peso e massa muscular.</td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <img src=".github/assets/mesomorph.jpg" width="50%" height="50%">
-    </td>
-    <td><strong>Mesomorfo</strong></td>
-    <td>Corpo naturalmente musculoso, facilidade para ganhar massa muscular e perder gordura.</td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <img src=".github/assets/endmorph.jpg" width="50%" height="50%">
-    </td>
-    <td><strong>Endomorfo</strong></td>
-    <td>Corpo com tendência a acumular gordura, maior dificuldade em perder peso.</td>
-  </tr>
-</table>
+Biotipo: Ectomorfo
+Descrição: Corpo mais magro, difícil ganhar peso e massa muscular.
+
+Biotipo: Mesomorfo
+Descrição: Corpo naturalmente musculoso, facilidade para ganhar massa muscular e perder gordura.
+
+Biotipo: Endomorfo
+Descrição: Corpo com tendência a acumular gordura, maior dificuldade em perder peso.
 
 > **Nota:** Escolha o biotipo que mais se aproxima do seu corpo atual para que o treino seja mais eficiente.
 
@@ -75,11 +53,14 @@ A primeira regra para personalizar o treino é determinar o biotipo corporal do 
 
 A segunda regra é determinar quantos dias por semana o usuário tem disponível para treinar. Dependendo do número de dias, o treino sugerido pode variar:
 
-| **Imagem**                                                     | **Dias por Semana** | **Tipo de Treino Sugerido** |
-| -------------------------------------------------------------- | ------------------- | --------------------------- |
-| <img src=".github/assets/calendar.png" width="50" height="50"> | 1 dia               | Treino Full Body            |
-| <img src=".github/assets/calendar.png" width="50" height="50"> | 3 dias              | Treino ABC                  |
-| <img src=".github/assets/calendar.png" width="50" height="50"> | 5 dias              | Treino ABCDE                |
+Dias por semana: 1 dias
+Tipo de Treino Sugerido: Treino Full Body
+
+Dias por semana: 3 dias
+Tipo de Treino Sugerido: Treino ABC
+
+Dias por semana: 5 dias
+Tipo de Treino Sugerido: Treino ABCDE
 
 - **Full Body**: Treino que trabalha o corpo todo em uma única sessão.
 - **ABC**: Divisão do treino em três dias, cada um focado em grupos musculares diferentes.
@@ -91,17 +72,34 @@ A segunda regra é determinar quantos dias por semana o usuário tem disponível
 
 A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão algumas categorias com exemplos:
 
-| **Imagem**                                                       | **Tipo de Treino** | **Descrição**                                                                                                 |
-| ---------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------- |
-| <img src=".github/assets/dumbells.png" width="50%" height="50%"> | **Funcional**      | Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.                                |
-| <img src=".github/assets/4760665.png" width="50%" height="50%">  | **Maquinário**     | Exercícios feitos em máquinas, com foco em isolar grupos musculares.                                          |
-| <img src=".github/assets/barr.png" width="50%" height="50%">     | **Peso Livre**     | Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente. |
-| <img src=".github/assets/cardio.png" width="50%" height="50%">   | **Cardio**         | Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.                     |
-| <img src=".github/assets/hiit.png" width="50%" height="50%">     | **HIIT**           | Treinos intervalados de alta intensidade, ótimos para queima de gordura.                                      |
+Tipo de Treino: Funcional
+Descrição: Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.
+
+Tipo de Treino: Maquinário
+Descrição: Exercícios feitos em máquinas, com foco em isolar grupos musculares.
+
+Tipo de Treino: Peso Livre
+Descrição: Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente.
+
+Tipo de Treino: Cardio
+Descrição: Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.
+
+Tipo de Treino: HIIT
+Descrição: Treinos intervalados de alta intensidade, ótimos para queima de gordura.
+
+Exemplos mais detalhados para cada tipo de treino.
+Recomendações para combinar tipos de treino com objetivos, como usar HIIT para emagrecimento.
+
+Exemplos de Treinos:
+Crie exemplos para cada biotipo, dias de treino e tipo de exercícios, como:
+Exemplo: 3 dias de treino para ectomorfo (Treino ABC):
+Dia 1 (Peito/Tríceps): Supino reto (3x12), Tríceps testa (3x10).
+Dia 2 (Costas/Bíceps): Puxada alta (3x10), Rosca direta (3x12).
+Dia 3 (Pernas): Agachamento livre (3x12), Leg Press (3x10).
 
 ---
 
-## 🛠️ Regras de negócio
+## 🛠 Regras de negócio
 
 1. **Identifique seu biotipo corporal** consultando a seção de biotipos.
 2. **Determine quantos dias por semana você pode treinar** e escolha o tipo de treino mais adequado.
@@ -112,11 +110,63 @@ A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão 
 
 ## 📖 Material de Apoio
 
-Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor o projeto e as práticas de prompt engineering:
-
-- [Fundamentos de Engenharia de prompt](https://elidianaandrade.gitbook.io/fundamentos-de-engenharia-de-prompts-com-claude-3)
-- [Boas práticas de prompt](https://aline-antunes.gitbook.io/otimize-seus-prompts-e-aprenda-mais-usando-ias-1)
+Foi realizado o fork desse projeto: https://github.com/digitalinnovationone/prompt-challenger-personal-ia
 
 ---
 
-## 🎯 Prompt de Resposta Proposto
+## 🎯 Prompt Input: Especialista Personal Trainer
+
+Você é um especialista personal trainer focado em criar treinos personalizados para indivíduos com base em suas características específicas. Para gerar o plano de treino ideal, considere os seguintes fatores: biotipo corporal, disponibilidade de tempo, tipo de exercícios preferidos e objetivo pessoal (ex.: emagrecimento, ganho muscular, resistência, etc.).
+
+Aqui estão as diretrizes para criar os treinos entre [] no anexo:
+
+[Diretrizes para Personalizacao de Treinos Baseados em Variaveis do Usuario.txt]
+
+![Amanzon_Bedrock_Chat-text playgournd_Input_prompt engineering_1](https://github.com/user-attachments/assets/6b4b9649-62ab-4e57-a045-22fe7ee7db9c)
+
+--- 
+
+## 🎯 Prompt Output de Resposta
+
+O plano inicial está bem direcionado para um iniciante ectomorfo buscando hipertrofia.  
+
+Objetivo: Ganho de massa muscular
+Experiência: Pouca
+Restrições: Sem restrições
+Biotipo: Ectomorfo
+Periodização: 3 dias de treino
+Tipo de Treino Preferido: Regra 3
+
+Plano de Treino:
+
+Dia 1 (Peito/Tríceps):
+- Supino reto: 3 séries de 12 repetições
+- Tríceps testa: 3 séries de 10 repetições
+
+Dia 2 (Costas/Bíceps):
+- Puxada alta: 3 séries de 10 repetições
+- Rosca direta: 3 séries de 12 repetições 
+
+Dia 3 (Pernas):
+- Agachamento livre: 3 séries de 12 repetições
+- Leg Press: 3 séries de 10 repetições
+
+Observações:
+
+- Por ser um ectomorfo, o foco será em exercícios compostos que trabalhem vários grupos musculares ao mesmo tempo, a fim de estimular o ganho de massa muscular.
+- A periodização de 3 dias de treino por semana é adequada para iniciantes, permitindo que o corpo se recupere entre as sessões.
+- O tipo de treino "Regra 3" sugere uma divisão clássica do treino, com dias focados em diferentes grupos musculares.
+
+Lembre-se de ajustar a carga, volume e intensidade conforme a evolução do usuário. Também é importante incorporar um bom plano nutricional para apoiar o objetivo de ganho de massa muscular.
+
+![Amanzon_Bedrock_Chat-text playgournd_Output_prompt engineering_2](https://github.com/user-attachments/assets/1253f682-3f4a-4252-bea4-68c5393428b0)
+
+---
+
+## 💪 Conclusão
+
+Para gerar o resultado, foi utilizado o Amazon Bedrock -> Chat/text playground -> Modelo: Claude 3 Haiku
+
+Entrega do projeto: criando-um-personal-trainer-ia-com-boas-praticas-de-prompt-engineer do Bootcamp: Nexa - Engenharia de Prompts na AWS com Claude
+
+---
