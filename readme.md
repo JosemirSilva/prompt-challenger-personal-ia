@@ -1,4 +1,4 @@
-                           ![image](https://github.com/user-attachments/assets/59da8ff2-0980-4b7a-8607-8e4d7ae881d2)
+![image](https://github.com/user-attachments/assets/cbc2f3ed-7514-424b-9457-bedb0e97558d)
 
 <p align="center">
 <a href="https://dio.me/"><img src="https://img.shields.io/badge/DIO-Project-FED564?logo=youtube" alt="DIO - Project"></a>
@@ -122,7 +122,7 @@ Aqui estão as diretrizes para criar os treinos entre [] no anexo:
 
 [Diretrizes para Personalizacao de Treinos Baseados em Variaveis do Usuario.txt]
 
-![Amanzon_Bedrock_Chat-text playgournd_Input_prompt engineering_1](https://github.com/user-attachments/assets/6b4b9649-62ab-4e57-a045-22fe7ee7db9c)
+![Amanzon_Bedrock_Chat-text playgournd_Input_prompt engineering_1](https://github.com/user-attachments/assets/ec131d10-36c8-48b8-8573-57558f3970ca)
 
 --- 
 
@@ -159,7 +159,7 @@ Observações:
 
 Lembre-se de ajustar a carga, volume e intensidade conforme a evolução do usuário. Também é importante incorporar um bom plano nutricional para apoiar o objetivo de ganho de massa muscular.
 
-![Amanzon_Bedrock_Chat-text playgournd_Output_prompt engineering_2](https://github.com/user-attachments/assets/1253f682-3f4a-4252-bea4-68c5393428b0)
+![Amanzon_Bedrock_Chat-text playgournd_Output_prompt engineering_2](https://github.com/user-attachments/assets/296f2bda-cb68-47f6-a686-7c9713c3f2bd)
 
 ---
 
