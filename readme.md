@@ -1,4 +1,5 @@
-![AI_PersonalTraner](https://github.com/user-attachments/assets/0b5a0924-fbdd-4691-86ca-dab8d52f6208)
+![image](https://github.com/user-attachments/assets/59da8ff2-0980-4b7a-8607-8e4d7ae881d2)
+
 
 <p align="center">
 <a href="https://dio.me/"><img src="https://img.shields.io/badge/DIO-Project-FED564?logo=youtube" alt="DIO - Project"></a>
