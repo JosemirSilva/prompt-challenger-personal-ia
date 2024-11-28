@@ -1,5 +1,4 @@
-[Link para o Google] Drive (https://drive.google.com)  
-!(https://drive.google.com/file/d/1NV5nL4HraKhzlXNIn8YWWt_CNWxnjATI/view?usp=drive_link)
+![AI_PersonalTraner](https://github.com/user-attachments/assets/0b5a0924-fbdd-4691-86ca-dab8d52f6208)
 
 <p align="center">
 <a href="https://dio.me/"><img src="https://img.shields.io/badge/DIO-Project-FED564?logo=youtube" alt="DIO - Project"></a>
