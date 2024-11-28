@@ -1,7 +1,4 @@
-<p align="center">
 ![image](https://github.com/user-attachments/assets/59da8ff2-0980-4b7a-8607-8e4d7ae881d2)
-</a>
-</p>
 
 <p align="center">
 <a href="https://dio.me/"><img src="https://img.shields.io/badge/DIO-Project-FED564?logo=youtube" alt="DIO - Project"></a>
